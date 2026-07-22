@@ -1,0 +1,9 @@
+# Honox island cache bug
+
+- honox: v0.1.59
+
+1. `bun i`
+2. `bun run build`
+3. `bun run preview`
+4. `grep -c "__importing_islands" dist/index.js`
+5. The result of Step 4 should be 8, but there are cases where this does not happen. Since this occurs randomly, please try a few times if the result is 8. If the value is less than 8, there are counters that cannot be executed via the `/a` through `/f` routes.

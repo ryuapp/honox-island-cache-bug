@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "honox-island-cache-bug",
+  "main": "./dist/index.js",
+  "compatibility_date": "2026-07-22",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./dist"
+  }
+}
