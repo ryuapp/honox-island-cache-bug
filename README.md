@@ -1,6 +1,9 @@
 # Honox island cache bug
 
+This repo is created for https://github.com/honojs/honox/issues/374.
+
 - honox: v0.1.59
+
 
 1. `bun i --linker=isolated`
 2. `bun run build`
